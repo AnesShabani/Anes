@@ -1,0 +1,217 @@
+*{
+    text-decoration:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    nav{
+    background-color:#F9CEE4;
+    box-shadow:5px 5px 5px gray;
+    }
+    .navdiv{
+    display:flex;
+    justify-content:space-between;
+    }
+    li{
+    list-style:none;
+    display:inline-block;
+    }
+    li a{
+    padding:10px;
+    color:black;
+    }
+    .logo img{
+    padding-left:30px
+    }
+    button{
+    background-color:crimson;
+    border-radius:10px;
+    margin-right:10px;
+    }
+    .b1{
+    padding:10px;
+    }
+    button a{
+    color:white;
+    }
+    #header2{
+        border:10px solid #F9CEE4;
+        border-radius: 10px;
+        text-align:center;
+    }
+    #list{
+        font-size: 30px;
+        text-align: center;
+        color:crimson;
+        font-weight: bold;
+    }
+    .imglist{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imglist img{
+        border: 15px solid #F9CEE4;
+        border-radius: 20px;
+    }
+    .sherbimi{
+        font-size: 30px;
+        text-align: center;
+        color: crimson;
+        width: 50%;
+        margin:0 auto;
+    }
+    .sherbimi h5 {
+        border:15px solid #F9CEE4;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px;
+    }
+    .sherbimi h5::selection{
+        background-color: #F9CEE4;
+    }
+    .maindiv{
+        display: flex;
+        justify-content: space-evenly;
+        padding:15px;
+    }
+    .maindiv div{
+        border:10px solid #F9CEE4;
+        border-radius: 20px;
+        padding:15px;
+    }
+  .div1{
+    text-align: center;
+    margin:20px;
+  }
+  .div1 img{
+    width: 170px;
+    height: 200px;
+    border: 6px solid crimson;
+    border-radius: 20px;
+  }
+  .div1 h3{
+    color:crimson;
+    margin-top: 10px;
+    font-size: 21px;
+  }
+  .div1 p{
+    color:crimson;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .div1 button{
+    background-color: #F9CEE4;
+    color: crimson;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .divkryesor{
+    display: flex;
+    justify-content: space-evenly;
+    padding:15px;
+}
+.divkryesor div{
+    border: 10px solid #F9CEE4;
+    border-radius: 20px;
+    padding:15px;
+}
+.filmi{
+text-align: center;
+margin:20px;
+}
+.filmi img{
+width: 170px;
+height: 200px;
+border: 6px solid crimson;
+border-radius: 20px;
+}
+.filmi h3{
+color:crimson;
+margin-top: 10px;
+font-size: 21px;
+}
+.filmi p{
+color:crimson;
+font-weight: bold;
+font-size: 18px;
+}
+.filmi button{
+background-color: #F9CEE4;
+color: crimson;
+font-weight: bold;
+font-size: 17px;
+}
+
+.kryediv{
+  display: flex;
+  justify-content: space-evenly;
+  padding:15px;
+}
+.kryediv div{
+  border: 10px solid #F9CEE4;
+  border-radius: 20px;
+  padding:15px;
+}
+.div2{
+text-align: center;
+margin:20px;
+}
+.div2 img{
+width: 170px;
+height: 200px;
+border: 6px solid crimson;
+border-radius: 20px;
+}
+.div2 h3{
+color:crimson;
+margin-top: 10px;
+font-size: 21px;
+}
+.div2 p{
+color:crimson;
+font-weight: bold;
+font-size: 25px;
+}
+.div2 button{
+background-color: #F9CEE4;
+color: crimson;
+font-weight: bold;
+font-size: 17px;
+}
+
+.divmain{
+  display: flex;
+  justify-content: space-evenly;
+  padding:15px;
+}
+.divmain div{
+  border: 10px solid #F9CEE4;
+  border-radius: 20px;
+  padding:15px;
+}
+.bileta{
+text-align: center;
+margin:20px;
+}
+.bileta img{
+width: 170px;
+height: 200px;
+border: 6px solid crimson;
+border-radius: 20px;
+}
+.bileta h3{
+color:crimson;
+margin-top: 10px;
+font-size: 21px;
+}
+.bileta p{
+color:crimson;
+font-weight: bold;
+font-size: 25px;
+}
+.bileta button{
+background-color: #F9CEE4;
+color: crimson;
+font-weight: bold;
+font-size: 17px;
+}
+
