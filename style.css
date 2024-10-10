@@ -3,7 +3,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     nav{
-    background-color:#F9CEE4;
+    background-color:#ff0084;
     box-shadow:5px 5px 5px gray;
     }
     .navdiv{
@@ -48,7 +48,7 @@
         justify-content: space-evenly;
     }
     .imglist img{
-        border: 15px solid #F9CEE4;
+        border: 15px solid #d4cef9;
         border-radius: 20px;
     }
     .sherbimi{
