@@ -1,0 +1,169 @@
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0,0, 0, 0.5) url('c.jpg') center center fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    padding: 0 8%;
+}
+nav{
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h3{
+    width: 150px;
+    font-size: 30px;
+    cursor: pointer;
+    color: yellow;
+}
+
+.nav_links{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_links a{
+    margin-left: 36px;
+    text-decoration: none;
+    color: #fff;
+    transition: 2s;
+}
+
+.nav_links a:hover{
+    padding: 11px;
+    background-color: #000;
+}
+
+.nav_links .btn{
+    background: yellow;
+    color: #000;
+    padding: 10px 28px;
+    border-radius: 5px;
+}
+
+.content{
+    margin-top: 150px;
+    margin-left: 150px;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+.search{
+    background: #fff;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 20px 20px;
+    align-items: center;    
+}
+
+.search input{
+    background: transparent;
+    width: 500px;
+    border: 0;
+    outline: none;
+}
+
+button{
+    padding: 10px 28px;
+    margin-left: 18%;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.form{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    right: 42%;
+    background: darkgrey;
+}
+
+.form::placeholder{
+    color: #fff;
+}
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 21px;
+    padding: 13px 18px;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+.link{
+    width: 75%;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 11px;
+    border-radius: 7px;
+}
+.audi{
+    color: white;
+}
+.imgg{ 
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    }
+
+.link1{
+    text-align: center;
+    margin-top: 8px;
+    
+}
+.paragraph{
+    margin-right: 150px;
+    color: white;
+}
+
+</style>
+<head>
+
+    <link rel="stylesheet" href="loginn.css">
+
+    <body>
+        <div class="C">
+            <nav>
+                <div class="logo">
+                    <h3>Cars Hub</h3>
+                </div>
+                <div class="nav_links">
+                    <a href="#">Explore Cars</a>
+                    </div>
+                  <img src="profile.jpeg" class="imgg">
+                   <a href="profile.php"><p class="paragraph">Anes Shabani</p></a>
+            </nav>
+            <div class="content">
+                <h1>Buy the best <br> Quality Cars</h1>
+                <div class="search">
+                    <input type="text" placeholder="Search Any Car">
+                </div>
+                <a href="button.html"><button type="submit">Search</button></a>
+              
+            </div>
+        </div>
+       
+            
+         
+     </body>
+</head>
